@@ -1,0 +1,28 @@
+.cm-header.cm-header-1::before {
+    content: "I ";
+    color: var(--code-normal);
+}
+.cm-header.cm-header-2::before {
+    content: "II ";
+    color: var(--code-normal);
+}
+.cm-header.cm-header-3::before {
+    content: "III ";
+    color: var(--code-normal);
+}
+.cm-header.cm-header-4::before {
+    content: "IIII ";
+    color: var(--code-normal);
+}
+.cm-header.cm-header-5::before {
+    content: "IIIII ";
+    color: var(--code-normal);
+}
+.cm-header.cm-header-6::before {
+    content: "IIIIII ";
+    color: var(--code-normal);
+}
+.cm-formatting::before {
+    content: "";
+    display: none;
+}
