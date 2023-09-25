@@ -1,5 +1,5 @@
-# Obsidian-Headings
-Custom css for Headings in Obsidian
+# Obsidian-Custom-CSS
+Custom css for Obsidian
 ## How to use
 1) Download the css file of your choosing
 2) Go to Obsidian>Settings>Appearance>CSS snippets
