@@ -1,0 +1,3 @@
+.workspace-tab-header-container-inner {
+    margin: 0px -5px calc(var(--tab-outline-width) * -1);
+}
