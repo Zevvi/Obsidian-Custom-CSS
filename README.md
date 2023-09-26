@@ -25,3 +25,6 @@ More color options for your lists depending on the class that has been attached 
 - and this item
 #### Example 2
 - `.b` this list item is blue
+
+### Tab Header
+Removes the empty space between the tabs and the top of your window
