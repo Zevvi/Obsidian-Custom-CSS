@@ -28,3 +28,6 @@ More color options for your lists depending on the class that has been attached 
 
 ### Tab Header
 Removes the empty space between the tabs and the top of your window
+
+### Suggestion Item Color
+Changes the color of selected item in a suggestion window (such as the #hashtag suggestion window)
