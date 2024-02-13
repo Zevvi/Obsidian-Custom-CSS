@@ -1,0 +1,82 @@
+:root .theme-light {
+    --corners: 15px;
+    --border-width: 2px;
+    --spacing: 15px;
+    --sideWidth: 15%;
+}
+
+:root .theme-dark {
+    --corners: 15px;
+    --border-width: 2px;
+    --spacing: 15px;
+    --sideWidth: 15%;
+}
+
+.horizontal-main-container {
+    padding: var(--spacing);
+}
+
+/* Light Theme */
+.theme-light .workspace-leaf-content {
+    border-radius: var(--corners);
+    border: var(--border-width) solid var(--background-modifier-border);
+    overflow: auto;
+    box-sizing: border-box;;
+}
+
+/* Dark Theme */
+.theme-dark .workspace-leaf-content {
+    border-radius: var(--corners);
+    border: var(--border-width) solid var(--background-modifier-border);
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.workspace-tab-header-container {
+    margin: 0 var(--spacing) 0;
+}
+
+.workspace-tab-header-container-inner {
+    border: 0 !important;
+}
+
+.workspace-split.mod-horizontal.mod-left-split .workspace-tab-header,
+.workspace-split.mod-horizontal.mod-right-split .workspace-tab-header {
+    background-color: transparent !important;
+}
+
+.workspace-split.mod-vertical.mod-root .workspace-tab-header-inner {
+    border: 0px solid var(--background-modifier-border) !important;
+}
+
+.workspace-tab-header {
+    background-color: transparent !important;
+}
+
+.workspace-split.mod-horizontal.mod-left-split {
+    margin-right: var(--spacing);
+    width: var(--sideWidth) !important;
+}
+
+.workspace-split.mod-horizontal.mod-right-split {
+    margin-left: var(--spacing);
+    width: var(--sideWidth) !important;
+}
+
+.popover.hover-editor {
+    border-radius: var(--corners) !important;
+}
+
+.popover-content {
+    border-radius: var(--corners) !important;
+    border: var(--border-width) solid var(--background-modifier-border) !important;
+}
+
+.popover.hover-editor > .popover-content > .workspace-split.mod-vertical > .workspace-leaf > .workspace-leaf-content {
+    border: 0px solid var(--background-modifier-border) !important;
+}
+
+.popover.hover-editor > .popover-content > .popover-titlebar {
+    padding: 0 var(--spacing) 0 !important;
+    margin-top: var(--spacing); 
+}

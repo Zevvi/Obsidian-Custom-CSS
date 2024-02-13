@@ -1,0 +1,6 @@
+table {
+    width: 100% !important;
+}
+.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper {
+    width: inherit !important;
+}
