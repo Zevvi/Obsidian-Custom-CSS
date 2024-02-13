@@ -31,3 +31,12 @@ Removes the empty space between the tabs and the top of your window
 
 ### Suggestion Item Color
 Changes the color of selected item in a suggestion window (such as the #hashtag suggestion window)
+
+### Wide Table
+Sets the table to the full width of the window
+
+### Math
+Lets you set a custom font for your math blocks
+
+### Floating
+Seperates the modals into their own rounded windows
